@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "BrandonGrotW01-Light";
+    src: url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot");
+    /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */
+      url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"),
+      /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"),
+      /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"),
+      /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("https://db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg");
+    /* iOS 4.1- */
+  }
+
+
+  *,
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BrandonGrotW01-Light";
+    color:#fff;
+  }
+
+
+#header {
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px
+}
+
+
+.header-class{
+    margin: auto;
+}
+
+.header-class h2{
+    
+}
+
+
+.nav{
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+
+
+.nav > ul > li {
+    list-style: none;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.bg-header{
+    background: url('img/mae-mu-1APtYqzNajA-unsplash.png') center; 
+    background-size: cover; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20rem;
+}
+
+li:last-child {
+    border: solid 1px white;
+    background-color: #fff;
+    border-radius: 28px;
+    color:black
+  }
+
+
+  .container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+
+  }
+
+  .box{
+      height: 80vh;
+      
+     
+  }
+
+  .box a{
+      text-decoration: none;
+      color: #24303E;
+  }
+  .box1, .box4{
+    background: #FFFCF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1-inner,
+  .box4-inner,
+  .box5-inner,
+  .box6-inner {
+    width: 80%;
+  }
+
+
+  .box5, 
+  .box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+  
+
+  
+
+  .box1 h2, 
+  .box4 h2{
+    /* font-family: Fraunces 9pt Soft; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    padding-bottom: 30px;
+  }
+
+  .box1 p , .box4 p {
+    /* font-family: Barlow; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    letter-spacing: -0.128571px;
+    color: #808397;
+    padding-bottom: 30px;
+  }
+  .box1 a, .box4 a{
+      align-self: start;
+  }
+
+  .box2{
+    background: url(/img/mae-mu-40NjbC-Q-cw-unsplash.png) center center;
+    background-size: cover;
+  }
+  .box3{
+      background: url(/img/mae-mu-GnWKTJlMYsQ-unsplash.png) center center;
+      background-size: cover;
+  }
+  .box5{
+    background: url(/img/mae-mu-vbAEHCrvXZ0-unsplash.png) center center;
+    background-size: cover;
+  }
+  .box6{
+      background: url(/img/mae-mu-U1iYwZ8Dx7k-unsplash.png) center center;
+      background-size: cover;
+  }
+
+  .box5 h3,
+  .box6 h3{
+    /* font-family: Fraunces 9pt Soft; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.2px;
+    
+    color: #24554A;
+  }
+
+  .box5 p,
+  .box6 p{
+    /* font-family: Barlow; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    
+    text-align: center;
+    letter-spacing: -0.114286px;
+    padding-bottom: 30px;
+    color: #3E7467;
+  }
+  /* .box6>.box6-inner>p {
+    padding-bottom: 60px;
+  } */
