@@ -41,9 +41,9 @@
     margin: auto;
 }
 
-.header-class h2{
+/* .header-class h2{
     
-}
+} */
 
 
 .nav{
@@ -101,8 +101,6 @@ li:last-child {
 
   .box{
       height: 80vh;
-      
-     
   }
 
   .box a{
